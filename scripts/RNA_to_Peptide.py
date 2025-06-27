@@ -23,4 +23,4 @@ while True:
     elif 'T' in SEQ:
         SEQ = SEQ.replace('T','U')
     Protein = rna_to_peptide(SEQ,peptide_dict)
-    print(Protein)
+    print('Peptide sequence: ', Protein)
