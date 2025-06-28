@@ -17,7 +17,7 @@ def rna_to_peptide(R_S,P_D):
 
 
 while True:
-    SEQ = input('Enter the sequence to translate: ')
+    SEQ = input('Enter the sequence to translate: ').upper()
     if SEQ == '/':
         break
     elif 'T' in SEQ:
